@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEEDF8"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="GÊNEROS"
+            android:textColor="#3C3C3C"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent"
+    android:layout_height="340dp">
+<include
+    layout="@layout/item_rpg1">
+
+</include>
+    <include
+        layout="@layout/item_cyberp">
+
+    </include>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="340dp">
+        <include
+            layout="@layout/itemlivrosuspense">
+
+        </include>
+        <include
+            layout="@layout/itemlivroterror">
+
+        </include>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="340dp">
+        <include
+            layout="@layout/item_ordem">
+
+        </include>
+        <include
+            layout="@layout/item_dragon">
+
+        </include>
+    </LinearLayout>
+
+
+</LinearLayout>
