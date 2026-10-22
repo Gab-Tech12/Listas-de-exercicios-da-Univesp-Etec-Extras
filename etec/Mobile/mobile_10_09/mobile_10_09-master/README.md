@@ -26,6 +26,23 @@ Este projeto é uma aplicação Android nativa desenvolvida como parte de uma at
 * **Build System:** Gradle (Kotlin DSL)
 
 ---
+<h2 align="center">📱 Telas do Aplicativo</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <b>Tela de Autenticação (Login)</b><br/><br/>
+        <img src="../screenshots/screen_cadastro.jpg" width="240" alt="Tela de Login"/>
+      </td>
+      <td align="center">
+        <b>Layout dos Cards (Home)</b><br/><br/>
+        <img src="../screenshots/screen_home.png" width="240" alt="Tela Principal de Cards"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 ## 📂 Estrutura do Repositório
 
@@ -40,3 +57,5 @@ Este projeto é uma aplicação Android nativa desenvolvida como parte de uma at
 ├── gradle/
 ├── build.gradle.kts
 └── settings.gradle.kts
+
+
