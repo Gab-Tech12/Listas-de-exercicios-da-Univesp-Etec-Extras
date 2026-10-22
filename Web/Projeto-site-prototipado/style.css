@@ -1,0 +1,111 @@
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+}
+html {
+    scroll-behavior: smooth;
+}
+
+header h1{ 
+    margin: 10px;
+    padding: 15px;
+
+}
+header{
+     margin: 20px;
+    padding: 15px;
+
+}
+
+header h2{
+     margin: 10px;
+    padding: 15px;
+
+}
+.container {
+    display: block; 
+    max-width: 1200px;
+    margin: 40px 20px;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.content h3{
+    margin: 10px 10px 10px 0px;
+    
+}
+
+
+.sidebar {
+    float:left;
+    width: 250px;
+   
+}
+
+.sidebar ul { list-style: none; }
+.sidebar li { margin-bottom: 10px; }
+.sidebar a { text-decoration: none; color: #666; font-size: 0.9rem; }
+
+.content {
+
+    float: left;
+    width:calc(100% - 290px);
+    border-left: 1px solid #4b4949; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    flex: 1;
+    padding-left: 40px;
+}
+
+.menu-item-container {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.foto-pratos-principais, 
+.foto-sobremesa, 
+.foto-entrada {
+    float: right; /* Flutua a imagem para a direita, ao lado do texto */
+    width: 35%; /* Ocupa 35% do espaço */
+    padding-top: 5px; /* Ajuste leve para alinhar a imagem com o primeiro prato */
+}
+
+.foto-pratos-principais img, 
+.foto-sobremesa img, 
+.foto-entrada img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+    border: 3px solid white;
+}
+
+.item { margin-bottom: 25px; }
+.item h4 { color: #333; font-weight: bold; margin-bottom: 5px; }
+.item p { color: #777; font-size: 0.85rem; }
+
+
+
+
+
+.footer {
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    margin-top: 50px;
+}
+.footer-logo img{
+    width: 170px;
+    height: 100px;
+}
+.footer-links{
+    color: white;
+}
+
+#links-footer:hover {
+    font-family: Arial, Helvetica, sans-serif;
+            color: white;
+}
+
